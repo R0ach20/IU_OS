@@ -1,0 +1,1000 @@
+ 1023  cd ../
+ 1024  cd 
+ 1025  cd build
+ 1026  cmake ..
+ 1027  cd
+ 1028  ls
+ 1029  cd Onboard-SDK/
+ 1030  mkdir build
+ 1031  cd build
+ 1032  cmake ..
+ 1033  make djiosdk-core
+ 1034  sudo make install
+ 1035  cd
+ 1036  catkin
+ 1037  cd catkin_ws
+ 1038  ls
+ 1039  git clone https://github.com/dji-sdk/Onboard-SDK-ROS.git
+ 1040  cd ./src
+ 1041  git clone https://github.com/dji-sdk/Onboard-SDK-ROS.git
+ 1042  cd ../
+ 1043  catkin_make
+ 1044  sudo atp install catkin
+ 1045  sudo apt install catkin
+ 1046  sudo apt install python-catkin-pkg
+ 1047  sudo apt install catkin
+ 1048  sudo apt install ros-malodic-catkin
+ 1049  sudo apt install ros-melodic-catkin
+ 1050  catkin_make
+ 1051  source /opt/ros/melodic/setup.bash >> ~/.bashrc
+ 1052  "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+ 1053  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+ 1054  catkin_make
+ 1055  cd ~
+ 1056  git clone https://github.com/dji-sdk/Onboard-SDK 3.7
+ 1057  git clone https://github.com/dji-sdk/Onboard-SDK-3.7
+ 1058  git clone https://github.com/dji-sdk/Onboard-SDK
+ 1059  cd Onboard-SDK/
+ 1060  git checkout 3.7
+ 1061  cd build
+ 1062  cmake ..
+ 1063  make
+ 1064  make djiosdk-core
+ 1065  sudo make install
+ 1066  cd
+ 1067  cd catkin_ws/
+ 1068  catkin_make
+ 1069  dji
+ 1070  source devel/setup.bash
+ 1071  roscd dji_sdk
+ 1072  ls
+ 1073  roslaunch dji_sdk sdk.launch
+ 1074  gedit launch/sdk.launch &
+ 1075  roslaunch dji_sdk sdk.launch
+ 1076  gedit launch/sdk.launch &
+ 1077  ls /dev
+ 1078  ls /dev/ttyUSB0
+ 1079  cat /dev/ttyUSB0
+ 1080  sudo useradd dialout
+ 1081  sudo useradd -h
+ 1082  sudo adduser dialout
+ 1083  sudo usermod -aG dialout
+ 1084  sudo usermod -aG dialout r0ach
+ 1085  logout 
+ 1086  exit
+ 1087  cat /dev/ttyUSB0
+ 1088  usermod 
+ 1089  sudo adduser r0ach dialout
+ 1090  reboot
+ 1091  gedit .bashrc
+ 1092  sudo apt upgrade
+ 1093  gedit
+ 1094  vim ./bashrc
+ 1095  ls
+ 1096  ./bashrc
+ 1097  ./.bashrc
+ 1098  vim ./.bashrc
+ 1099  clear
+ 1100  rosrun turtlesim draw_square 
+ 1101  rosrun turtlesim turtle_teleop_key 
+ 1102  curl -sSL http://get.gazebosim.org | sh
+ 1103  gazebo
+ 1104  gazebo '/home/r0ach/catkin_ws/drone_landing-master-2692aa1fea77cf76a0fe5b454b5ccb5e02fd197f/landing/worlds/world_with_car_and_drone.world' 
+ 1105  gzclient
+ 1106  export
+ 1107  sudo apt update
+ 1108  sudo apt install ros-melodic-control-toolbox
+ 1109  echo $ROS_PACKAGE_PATH 
+ 1110  cd catkin_ws/mavros/
+ 1111  mkdir build
+ 1112  cd build
+ 1113  make ..
+ 1114  cmake ..
+ 1115  cd
+ 1116  sudo apt install ros-melodic-mavros
+ 1117  sudo apt install ros-melodic-mavros-extras
+ 1118  wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+ 1119  ./install_geographiclib_datasets.sh
+ 1120  sudo ./install_geographiclib_datasets.sh
+ 1121  chmod -x ./install_geographiclib_datasets.sh
+ 1122  ./install_geographiclib_datasets.sh
+ 1123  sudo ./install_geographiclib_datasets.sh
+ 1124  geoids
+ 1125  sudo apt install GeographicLib
+ 1126  sudo apt install geographiclib-tools 
+ 1127  rosdep update
+ 1128  rosdep install
+ 1129  sudo apt-get install libgeographic-dev ros-kinetic-geographic-msgs
+ 1130  sudo apt-get install libgeographic-dev ros-melodic-geographic-msgs
+ 1131  sudo ./install_geographiclib_datasets.sh
+ 1132  locate geographiclib
+ 1133  geoids/
+ 1134  sudo mkdir GeographicLib
+ 1135  mv geoids/ GeographicLib/
+ 1136  locate 
+ 1137  locate lib
+ 1138  locate libgeo
+ 1139  locate libgeogr
+ 1140  locate geogra
+ 1141  locate geographic
+ 1142  locate 
+ 1143  locate geographiclib
+ 1144  geographiclib
+ 1145  geographiclib-get-
+ 1146  geographiclib-get-geoids 
+ 1147  export PATH="`cygpath -m c:/QtSDK/mingw/bin`:$PATH"
+ 1148  cd
+ 1149  rmdir BUILD
+ 1150  ls
+ 1151  sudo apt purge geographiclib-tools 
+ 1152  sudo apt install geographiclib-t
+ 1153  sudo apt install geographiclib-tools 
+ 1154  sudo apt install ros-melodic-mavos
+ 1155  sudo apt install ros-melodic-mavros
+ 1156  sudo apt install ros-melodic-mavros-extras
+ 1157  ls
+ 1158  sudo install_geographiclib_datasets.sh 
+ 1159  sudo /.install_geographiclib_datasets.sh 
+ 1160  sudo .install_geographiclib_datasets.sh 
+ 1161  sudo ./install_geographiclib_datasets.sh 
+ 1162  geographiclib-get-geoids 
+ 1163  enc
+ 1164  env
+ 1165  env GeographicLib/
+ 1166  env 
+ 1167  geod
+ 1168  geos
+ 1169  geographiclib-get-gravity 
+ 1170  rosdep update
+ 1171  sudo atp update
+ 1172  sudo apt update
+ 1173  sudo apt upgrade
+ 1174  dc catkin_ws/
+ 1175  cd catkin_ws/
+ 1176  ls
+ 1177  catkin_make
+ 1178  '/home/r0ach/catkin_ws/src/mavros_tracker_plugins/install_geographiclib_datasets.sh' 
+ 1179  sudo '/home/r0ach/catkin_ws/src/mavros_tracker_plugins/install_geographiclib_datasets.sh' 
+ 1180  catkin_make
+ 1181  locate geographicslib
+ 1182  locate geographics
+ 1183  locate geographiclib
+ 1184  locate Geographic
+ 1185  catkin_make
+ 1186  мш .уес.пкщгз
+ 1187  vi /etc/group
+ 1188  lib
+ 1189  cd /usr/lib
+ 1190  ls
+ 1191  locate geographics
+ 1192  locate geographic
+ 1193  locate geoids
+ 1194  geographiclib
+ 1195  locate geographiclib
+ 1196  sudo apt remove geographiclib-tools 
+ 1197  ls
+ 1198  locate Geographic
+ 1199  locate geographic
+ 1200  updatedb
+ 1201  sudo updatedb
+ 1202  locate geographic
+ 1203  locate geographiclib_c
+ 1204  locate geographiclib
+ 1205  locate geographiclib.cmake
+ 1206  sudo updatedb
+ 1207  locate geographiclib
+ 1208  locate 
+ 1209  locate geographiclib
+ 1210  sudo updatedb
+ 1211  locate geographiclib
+ 1212  cd /usr/share/
+ 1213  ls
+ 1214  cd GeographicLib/
+ 1215  ls
+ 1216  cd ./
+ 1217  cd ../
+ 1218  ls
+ 1219  cd /usr/local/lib/
+ 1220  ls
+ 1221  cd cmake/
+ 1222  cd GeographicLib/
+ 1223  l
+ 1224  ls
+ 1225  man l
+ 1226  man ls
+ 1227  ls -a
+ 1228  ls -A
+ 1229  cd
+ 1230  cd catkin_ws/src/
+ 1231  ls
+ 1232  cd geographiclib_conversions/
+ 1233  ls
+ 1234  mkdir build
+ 1235  cd build
+ 1236  cmake ..
+ 1237  configure
+ 1238  ls
+ 1239  make ..
+ 1240  make
+ 1241  '/home/r0ach/catkin_ws/src/geographiclib_conversions/build/atomic_configure/setup.sh' 
+ 1242  sudo '/home/r0ach/catkin_ws/src/geographiclib_conversions/build/atomic_configure/setup.sh' 
+ 1243  '/home/r0ach/catkin_ws/src/geographiclib_conversions/build/atomic_configure/setup.sh' 
+ 1244  catkin
+ 1245  catkin_make
+ 1246  make
+ 1247  make --help
+ 1248  sudo make install
+ 1249  cd
+ 1250  sudo apt install opencv2
+ 1251  sudo apt install ignition
+ 1252  brew install ignition-cmake
+ 1253  sudo apt install linuxbrew-wrapper 
+ 1254  brew install ignition-cmake
+ 1255  sudo brew install ignition-cmake
+ 1256  brew install ignition-cmake
+ 1257  sudo apt install libignition-math4-dev 
+ 1258  sudo apt install libignition-math4
+ 1259  s
+ 1260  cd GeographicLib-1.49/
+ 1261  cd build
+ 1262  cd BUILD/
+ 1263  cmake ..
+ 1264  make
+ 1265  sudo make install
+ 1266  cd
+ 1267  sudo apt install ros-melodic-mavros
+ 1268  sudo apt install ros-melodic-mavros-extras
+ 1269  sudo make install
+ 1270  clear
+ 1271  sudo apt install geographiclib-tools 
+ 1272  sudo apt aoutor
+ 1273  sudo apt autoremove 
+ 1274  sudo apt install libgeographiclib-dev
+ 1275  sudo apt install libgeographic-dev
+ 1276  sudo apt install geographiclib-dev
+ 1277  sudo apt install geographiclib-tools 
+ 1278  sudo apt install catkin_simple
+ 1279  cd catkin_simple-master/
+ 1280  mkdir build
+ 1281  cd build/
+ 1282  make ..
+ 1283  ..
+ 1284  cd ..
+ 1285  ls
+ 1286  cd build/
+ 1287  make ../
+ 1288  cmake ../
+ 1289  make ..
+ 1290  make
+ 1291  catkin_make
+ 1292  cd /
+ 1293  cd ~
+ 1294  cd catkin_ws/
+ 1295  cd src
+ 1296  git clone git@github.com:catkin/catkin_simple.git
+ 1297  sudo git clone git@github.com:catkin/catkin_simple.git
+ 1298  cd ../
+ 1299  cd src
+ 1300  ls
+ 1301  cd geographiclib_conversions/
+ 1302  ls
+ 1303  mkdir build
+ 1304  cd build/
+ 1305  make ..
+ 1306  cmake ..
+ 1307  make
+ 1308  make install
+ 1309  sudo make install
+ 1310  cd ../
+ 1311  catkin_make
+ 1312  cd
+ 1313  clear
+ 1314  locate geographiclib)conversions
+ 1315  locate geographiclib_conversions
+ 1316  sudo apt 
+ 1317  cd catkin_ws/
+ 1318  catkin_make
+ 1319  ls
+ 1320  reboot
+ 1321  sudo apt upgrade
+ 1322  sudo apt update
+ 1323  sudo apt upgrade
+ 1324  sudo service lightdm restart
+ 1325  dconf reset -f /org/compiz/
+ 1326  setsid unity
+ 1327  sudo reboot
+ 1328  sudo apt install -f
+ 1329  sudo apt install ubuntu-desktop 
+ 1330  sudo apt install ffmpeg
+ 1331  gazebo --version
+ 1332  cd catkin_ws/
+ 1333  cd Manifold-Cam/
+ 1334  make install
+ 1335  sudo make install
+ 1336  make
+ 1337  make test
+ 1338  ./test
+ 1339  gcc test
+ 1340  make
+ 1341  make clean
+ 1342  sudo ./test -d
+ 1343  sudo test -d
+ 1344  cd ..
+ 1345  catkin_make Onboard-SDK-ROS
+ 1346  catkin_make 
+ 1347  catkin_make dji_sdk_node 
+ 1348  ls
+ 1349  roslaunch landing/launch/open_gazebo_dronewithcar_world.launch 
+ 1350  cd src
+ 1351  ls
+ 1352  cd gazebo_car_plugin/
+ 1353  git
+ 1354  cd
+ 1355  git clone http://cordelia.university.innopolis.ru/kamaz/drone_landing.git
+ 1356  git commit 
+ 1357  cd drone_landing/
+ 1358  git commit
+ 1359  git commit -m
+ 1360  git commit -m "Migrated to Gazebo 9.0.0"
+ 1361  git checkout
+ 1362  git commit -a -m "Migrated to Gazebo 9.0.0"
+ 1363  git checkout -b migration
+ 1364  git push origin migration 
+ 1365  cd catkin_ws/
+ 1366  catkin_make
+ 1367  atkin_make
+ 1368  catkin_make
+ 1369  catkin_make dji_sdk_read_cam 
+ 1370  catkin_make 
+ 1371  sudo apt install --reinstall bcmwl-kernel-source
+ 1372  lspci -nn
+ 1373  reboot
+ 1374  cd catkin_ws/Manifold-Cam/
+ 1375  make
+ 1376  sudo make install
+ 1377  make
+ 1378  roslaunch
+ 1379  roslaunch drone_landing/
+ 1380  roslaunch drone_landing/landing/
+ 1381  roslaunch drone_landing/landing/launch/open_gazebo_dronewithcar_world.launch 
+ 1382  roslaunch drone_landing/landing/launch/landing_
+ 1383  roslaunch drone_landing/landing/launch/landing_sim.launch 
+ 1384  roslaunch drone_landing/landing/launch/landing_drone.launch 
+ 1385  roslaunch drone_landing/landing/launch/landing_sim.launch 
+ 1386  cd catkin_ws/
+ 1387  catkin_make
+ 1388  catkin_make 
+ 1389  catkin_make Mainfold-Cam
+ 1390  catkin_make 
+ 1391  touch CATKIN_IGNORE
+ 1392  rosrun ar_track_alvar createMarker
+ 1393  rostopic 
+ 1394  rostopic  echo /cv_camera/image_raw
+ 1395  rostopic  echo /cv_camera/camera_info /
+ 1396  rostopic  echo /cv_camera/camera_info 
+ 1397  cd
+ 1398  cd catkin_ws/
+ 1399  cd src/webcam_read/
+ 1400  cd src/
+ 1401  g++ webcam_read.cpp webcam_read.cpp 
+ 1402  sudo apt install ros-melodic-vision-opencv 
+ 1403  sudo apt install ros-melodic-uvc-camera
+ 1404  sudo pip install opencv-python
+ 1405  pip install opencv-python
+ 1406  sudo apt install pyhon-pip
+ 1407  sudo apt install python-pip
+ 1408  sudo apt install python-pip3
+ 1409  sudo apt install python3-pip
+ 1410  sudo pip3 install opencv-python
+ 1411  rosrun rqt_image_view 
+ 1412  rosrun rqt_image_view rqt_image_view 
+ 1413  cd /dev/video0
+ 1414  cd /d
+ 1415  cd /
+ 1416  cd
+ 1417  cd/
+ 1418  cd /
+ 1419  cd //
+ 1420  cd /////////////////
+ 1421  cd ///
+ 1422  cd //
+ 1423  cd ../
+ 1424  cd
+ 1425  cd ../
+ 1426  clear
+ 1427  cd
+ 1428  clear
+ 1429  rascore
+ 1430  roscore
+ 1431  sudo apt install ros-meodic-ar-track-alvar
+ 1432  sudo apt install ros-indigo-ar-track-alvar
+ 1433  sudo apt install ros-melodic-ar-track-alvar
+ 1434  sudo apt update
+ 1435  sudo apt upgrade
+ 1436  sudo apt update
+ 1437  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys F42ED6FBAB17C654
+ 1438  sudo apt update
+ 1439  sudo apt upgrade
+ 1440  sudo apt install ros-melodic-ar-track-alvar
+ 1441  sudo apt install ros-melodic-cv-camera
+ 1442  rosparam set cv_camera/device_id 0
+ 1443  rosrun cv_camera cv_camera_node
+ 1444  rosrun uvc_cam
+ 1445  rosrun 
+ 1446  rosrun image_view 
+ 1447  rosrun image_view extract_images
+ 1448  rosrun cv_camera 
+ 1449  rosrun cv_camera cv_camera_node 
+ 1450  cd catkin_ws/
+ 1451  catki_make
+ 1452  catkin_make
+ 1453  ls dji_sdk_read_cam/CATKIN_IGNORE
+ 1454  cat dji_sdk_read_cam/CATKIN_IGNORE
+ 1455  catkin_make
+ 1456  catkin_make dji_sdk_generate_messages
+ 1457  catkin_make dji_sdk_generate_messages_cpp 
+ 1458  catkin_make
+ 1459  touch usb_cam_ar_track.launch
+ 1460  rviz
+ 1461  rosrun rviz
+ 1462  rosrun rviz rviz 
+ 1463  sudo apt update
+ 1464  sudo apt upgrade
+ 1465  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
+ 1466  sudo apt-get install libxine2-dev libv4l-dev
+ 1467  Remove any previous installations of x264</h3>
+ 1468  sudo apt-get remove x264 libx264-dev
+ 1469  We will Install dependencies now
+ 1470  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+ 1471  sudo apt-get install libtiff5-dev
+ 1472  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+ 1473  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
+ 1474  sudo apt-get install libxine2-dev libv4l-dev
+ 1475  sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+ 1476  sudo apt-get install qt5-default libgtk2.0-dev libtbb-dev
+ 1477  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
+ 1478  sudo apt-get install libxine2-dev libv4l-dev
+ 1479  sudo apt-get remove x264 libx264-dev -y
+ 1480  sudo apt-get install build-essential checkinstall cmake pkg-config yasm -y
+ 1481  sudo apt-get install git gfortran -y
+ 1482  sudo apt-get remove x264 libx264-dev -y
+ 1483  sudo apt-get install build-essential checkinstall cmake pkg-config yasm git gfortran libjpeg8-dev libjasper-dev libpng12-dev libtiff5-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine2-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev qt5-default libgtk2.0-dev libtbb-dev libatlas-base-dev libfaac-dev libmp3lame-dev libtheora-dev libvorbis-dev libxvidcore-dev libopencore-amrnb-dev libopencore-amrwb-dev x264 v4l-utils libprotobuf-dev protobuf-compiler libgoogle-glog-dev libgflags-dev libgphoto2-dev libeigen3-dev libhdf5-dev doxygen -y
+ 1484  sudo apt-get remove x264 libx264-dev -y
+ 1485  sudo apt-get install build-essential checkinstall cmake pkg-config yasm git gfortran libjpeg8-dev libtiff5-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine2-dev libv4l-dev qt5-default libgtk2.0-dev libtbb-dev libatlas-base-dev libfaac-dev libmp3lame-dev libtheora-dev libvorbis-dev libxvidcore-dev libopencore-amrnb-dev libopencore-amrwb-dev x264 v4l-utils libprotobuf-dev protobuf-compiler libgoogle-glog-dev libgflags-dev libgphoto2-dev libeigen3-dev libhdf5-dev doxygen -y
+ 1486  cd eigen/
+ 1487  mkdir build
+ 1488  cd build
+ 1489  cmake
+ 1490  cmake ..
+ 1491  make -j3
+ 1492  make -j4
+ 1493  cd ../
+ 1494  make -j4
+ 1495  cd build/
+ 1496  make
+ 1497  sudo make install
+ 1498  cd
+ 1499  sudo apt install libeigen3-dev
+ 1500  sudo dbupdate
+ 1501  sudo updatedb
+ 1502  sudo apt autoremove 
+ 1503  sudo apt install cmake-qt-gui 
+ 1504  sudo apt install libeigen
+ 1505  sudo apt install libeigen3-dev 
+ 1506  sudo apt remove libeigen3-dev 
+ 1507  sudo apt install gazebo9
+ 1508  sudo apt install ros-melodic-desktop-full 
+ 1509  roscore
+ 1510  rosrun ar_track_alvar individualMarkersNoKinect 
+ 1511  roscore
+ 1512  sudo apt install ros-melodic-usb-cam
+ 1513  rosrun usb_cam usb_cam_node
+ 1514  roscore
+ 1515  roslaunch ar_tag_toolbox usb_cam.launch cam_id cam_id:=0
+ 1516  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1517  roslaunch ar_tag_toolbox usb_cam.launch
+ 1518  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=1
+ 1519  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1520  roslaunch cv_camera 
+ 1521  rosrun cv_camera cv_camera_node 
+ 1522  rosrun usb_cam usb_cam_node 
+ 1523  rosrun cv_camera cv_camera_node 
+ 1524  rosrun usb_cam usb_cam_node 
+ 1525  rosrun cv_camera cv_camera_node 
+ 1526  rosrun usb_cam usb_cam_node 
+ 1527  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1528  rosrun usb_cam usb_cam_node 
+ 1529  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1530  rosrun usb_cam usb_cam_node 
+ 1531  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1532  roslaunch ar_tag_toolbox usb_cam.launch 
+ 1533  rostopic echo /ar_pose_marker
+ 1534  rosrun web_cam_node web_cam_node_node 
+ 1535  rostopic echo /ar_pose_marker
+ 1536  rostopic echo /ar_track_alvar/enable_detection /
+ 1537  rostopic echo /ar_track_alvar/enable_detection 
+ 1538  rostopic echo /ar_pose_marker 
+ 1539  rostopic pub /ar_track_alvar/enable_detection std_msgs/Bool "data: true" 
+ 1540  rostopic echo /ar_pose_marker
+ 1541  rostopic echo /a
+ 1542  rostopic echo /ar_pose_marker /
+ 1543  rostopic echo /ar_pose_marker 
+ 1544  rostopic echo /a
+ 1545  rostopic echo /visualization_marker /
+ 1546  rostopic echo /visualization_marker 
+ 1547  rostopic echo /ar_pose_marker 
+ 1548  cd catkin_ws/
+ 1549  catkin_make web_cam_node_node 
+ 1550  rosrun web_cam_node web_cam_node_node /usb_cam/image_raw
+ 1551  catkin_make 
+ 1552  roslaunch web_cam_node usb_cam_ar_track.launch 
+ 1553  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /header_cam
+ 1554  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /usb_cam/image_raw
+ 1555  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /header_cam
+ 1556  catkin_make
+ 1557  cd src/
+ 1558  git clone https://github.com/atomoclast/ar_tag_toolbox
+ 1559  cd ..
+ 1560  catkin_make
+ 1561  catkin_make ar_tag_toolbox
+ 1562  catkin_make
+ 1563  source devel/setup.bash
+ 1564  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1565  catkin_make
+ 1566  roslaunch web_cam_node usb_cam_ar_track.launch 
+ 1567  ros
+ 1568  roslaunch web_cam_node usb_cam_ar_track.launch 
+ 1569  roslaunch ar_tag_toolbox 
+ 1570  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /header_cam
+ 1571  catkin_make
+ 1572  rostopic echo /
+ 1573  rostopic echo /image_view_1560265260380511678/output
+ 1574  rostopic echo /
+ 1575  rosrun rviz rviz 
+ 1576  git clone https://github.com/opencv/opencv.git
+ 1577  cd opencv/
+ 1578  git checkout 
+ 1579  mkdir build
+ 1580  cd build/
+ 1581  cd
+ 1582  git clone https://github.com/opencv/opencv_contrib.git
+ 1583  cd opencv/build/
+ 1584  nproc
+ 1585  cmake -D CMAKE_BUILD_TYPE=RELEASE       -D CMAKE_INSTALL_PREFIX=/usr/local       -D INSTALL_C_EXAMPLES=ON       -D INSTALL_PYTHON_EXAMPLES=ON       -D WITH_TBB=ON       -D WITH_V4L=ON       -D WITH_QT=ON       -D WITH_OPENGL=ON       -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules       -D BUILD_EXAMPLES=ON ..
+ 1586  make -j4
+ 1587  cmake -D CMAKE_BUILD_TYPE=RELEASE       -D CMAKE_INSTALL_PREFIX=/usr/local       -D INSTALL_C_EXAMPLES=ON       -D INSTALL_PYTHON_EXAMPLES=ON       -D WITH_TBB=ON       -D WITH_V4L=ON       -D WITH_QT=ON       -D WITH_OPENGL=ON       -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules       -D BUILD_EXAMPLES=ON ..
+ 1588  make -j4
+ 1589  cmake-gui
+ 1590  cmake-gui ..
+ 1591  make
+ 1592  cmake-gui ..
+ 1593  make
+ 1594  cmake-gui ..
+ 1595  make -j4
+ 1596  cmake-gui ..
+ 1597  make -j4
+ 1598  cmake-gui ..
+ 1599  make -j4
+ 1600  sudo make install
+ 1601  cd
+ 1602  cd catkin_ws/
+ 1603  catkin_make
+ 1604  rosrun 
+ 1605  catkin_make web_cam_node_node 
+ 1606  rosrun web_cam_node
+ 1607  rosrun web_cam_node web_cam_node_node 
+ 1608  rosrun ar_track_alvar createMarker 
+ 1609  rosrun ar_track_alvar createMarker  -s
+ 1610  rosrun ar_track_alvar createMarker  -s 5.0
+ 1611  rosrun ar_track_alvar createMarker  -1 "erhuivof"
+ 1612  rosrun ar_track_alvar createMarker  -1 "R0ach"
+ 1613  rosrun ar_track_alvar createMarker  -1 "valik"
+ 1614  rosrun ar_track_alvar createMarker  -1 "CblBtblBKAP"
+ 1615  rosrun ar_track_alvar createMarker  -1 "K"
+ 1616  rosrun ar_track_alvar createMarker 
+ 1617  rosrun ar_track_alvar findMarkerBundles
+ 1618  rosrun ar_track_alvar individualMarkersNoKinect 
+ 1619  roslaunch ar_track_alvar pr2_indiv_no_kinect.launch 
+ 1620  cd
+ 1621  rosrun ar_track_alvar individualMarkersN
+ 1622  rosrun ar_track_alvar individualMarkersNoKinect 
+ 1623  rosrun ar_track_alvar individualMarkersNoKinect  -c
+ 1624  rosrun ar_track_alvar individualMarkersNoKinect  5 5 5 /cv_camera/image_raw 0 0
+ 1625  rosrun ar_track_alvar individualMarkersNoKinect  5 5 5 /cv_camera/image_raw a a
+ 1626  rosrun ar_track_alvar individualMarkersNoKinect  5 5 5 /cv_camera/image_raw a out_frame
+ 1627  rosrun ar_track_alvar individualMarkersNoKinect  5 5 5 /cv_camera/image_raw  out_frame
+ 1628  rosrun ar_track_alvar individualMarkersNoKinect  5 5 5 /cv_camera/image_raw none  out_frame
+ 1629  rosrun ar_track_alvar
+ 1630  roslaunch web_cam_node usb_cam_ar_track.launch 
+ 1631  roscore
+ 1632  rosrun image_view 
+ 1633  rosrun image_view image_view 
+ 1634  rosrun image_view image_view image:=/usb_cam/image_raw
+ 1635  rosrun image_view image_view image:=/head_cam
+ 1636  rosrun image_view image_view image:=/usb_cam/image_raw
+ 1637  reboot
+ 1638  rosrun web_cam_node web_cam_node_node 
+ 1639  rosrun web_cam_node web_cam_node_node /usb_cam/image_raw
+ 1640  roslaunch ar_track_alvar pr2_indiv_no_kinect.launch 
+ 1641  rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map head_cam 30
+ 1642  rosrun tf s2tatic_transform_publisher 0 0 0 0 0 0 1 map head_cam 30
+ 1643  rosrun
+ 1644  roslaunch ar_track_alvar pr2_indiv_no_kinect.launch 
+ 1645  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1646  rosrun image_view image_view 
+ 1647  rqt
+ 1648  roscore
+ 1649  cd catkin_ws/
+ 1650  catkin_make 
+ 1651  rostopic echo /ar_pose_marker 
+ 1652  rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map my_frame 10
+ 1653  rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map mytf 0
+ 1654  rqt_graph 
+ 1655  locate individual
+ 1656  roscd ar_track_alvar/
+ 1657  ls
+ 1658  cd launch/
+ 1659  ls
+ 1660  gedit pr2_indiv_no_kinect.launch 
+ 1661  cd ..
+ 1662  ls
+ 1663  cd cmake/
+ 1664  ls
+ 1665  cd ..
+ 1666  cd bundles/
+ 1667  ls
+ 1668  cd ..
+ 1669  cd lib/
+ 1670  cd ar_track_alvar/
+ 1671  ls
+ 1672  gedit  individualMarkersNoKinect 
+ 1673  cd ..
+ 1674  cd share/
+ 1675  cd ar_track_alvar
+ 1676  ls
+ 1677  cd la
+ 1678  cd launch/
+ 1679  ls
+ 1680  gedit pr2_indiv_no_kinect.launch 
+ 1681  rqt_image_view 
+ 1682  rviz 
+ 1683  rosrun image_view image_view 
+ 1684  rqt_im
+ 1685  rqt_image_view 
+ 1686  ls -A
+ 1687  gedit .bashrc 
+ 1688  roslaunch ar_tag_toolbox usb_cam.launch cam_id 
+ 1689  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1690  rosrun usb_cam usb_cam_node 
+ 1691  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1692  rosrun usb_cam usb_cam_node 
+ 1693  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1694  rosrun usb_cam usb_cam_node 
+ 1695  rosrun ar_track_alvar individualMarkersNoKinect 
+ 1696  roslaunch ar_track_alvar pr2_indiv_no_kinect.launch 
+ 1697  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1698  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=5
+ 1699  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4
+ 1700  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1701  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4.5
+ 1702  rosrun usb_cam usb_cam_node 
+ 1703  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4.5
+ 1704  sudo apt update
+ 1705  sudo apt upgrade
+ 1706  rqt_image_view 
+ 1707  rqt_graph 
+ 1708  rviz '/home/r0ach/catkin_ws/src/ar_tag_toolbox/view_markers_kinect.rviz' 
+ 1709  rqt_graph 
+ 1710  git checkout groovy-devel
+ 1711  sudo apt install ros-melodic-camera-calibration
+ 1712  rosrun camera_calibration cameracalibrator.py 
+ 1713  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_camera/image_raw camera:=/usb_camera
+ 1714  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_camera/image_raw camera:=/usb_camera --no-service-check
+ 1715  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_camera/image_raw camera:=/usb_camera 
+ 1716  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw camera:=/usb_cam
+ 1717  rviz
+ 1718  rostopic echo /dji_sdk/odometry
+ 1719  rostopic echo /dji_sdk/gps_position 
+ 1720  rostopic echo /dji_sdk/local_position /
+ 1721  rostopic echo /dji_sdk/local_position 
+ 1722  rostopic echo /dji_sdk/local_frame_ref /
+ 1723  rostopic echo /dji_sdk/local_frame_ref 
+ 1724  rostopic echo /dji_sdk/rc
+ 1725  rostopic echo /dji_sdk/flight_status 
+ 1726  rostopic echo /dji_sdk/gps_position 
+ 1727  rostopic echo /dji_sdk/local_position 
+ 1728  rostopic echo /dji_sdk/gps_health 
+ 1729  rostopic echo /dji_sdk/battery_state 
+ 1730  rostopic echo /dji_sdk/odometry 
+ 1731  roslaunch landing twiddle.launch 
+ 1732  rosrun dji_sdk_demo demo_flight_control 
+ 1733  roslaunch drone_landing/landing/launch/landing_drone.launch 
+ 1734  rosrun landing landing_node 
+ 1735  cd catkin_ws/
+ 1736  catkin_make
+ 1737  rosrun landing landing_node 
+ 1738  catkin_make
+ 1739  rosrun landing landing_node 
+ 1740  catkin_make
+ 1741  rosrun landing landing_node 
+ 1742  catkin_make
+ 1743  rosrun landing landing_node 
+ 1744  catkin_make
+ 1745  rosrun landing landing_node 
+ 1746  catkin_make landing_node 
+ 1747  rosrun landing landing_node 
+ 1748  catkin_make landing_node 
+ 1749  rosrun landing landing_node 
+ 1750  catkin_make landing_node 
+ 1751  rosrun landing landing_node 
+ 1752  catkin_make landing_node 
+ 1753  rosrun landing landing_node 
+ 1754  catkin_make
+ 1755  rosrun landing landing_node 
+ 1756  roslaunch landing landing_drone.launch 
+ 1757  rosrun landing landing_node 
+ 1758  catkin_make
+ 1759  rosrun landing landing_node 
+ 1760  catkin_make
+ 1761  rosrun landing landing_node 
+ 1762  catkin_make
+ 1763  rosrun landing landing_node 
+ 1764  catkin_make
+ 1765  rosrun landing landing_node 
+ 1766  catkin_make
+ 1767  rosrun landing landing_node 
+ 1768  catkin_make
+ 1769  rosrun landing landing_node 
+ 1770  SUDO APT UPDATE
+ 1771  sudo apt update 
+ 1772  sudo apt upgrade
+ 1773  roscore
+ 1774  rosrun dji_sdk_demo demo_flight_control 
+ 1775  roslaunch landing 
+ 1776  roslaunch landing landing_drone.launch 
+ 1777  rosrun dji_sdk_demo demo_flight_control 
+ 1778  rosrun dji_sdk dji_sdk_node 
+ 1779  roslaunch dji_sdk sdk.launch 
+ 1780  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1781  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4.5
+ 1782  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4
+ 1783  hardinfo
+ 1784  sudo apt install hardinfo
+ 1785  hardinfo
+ 1786  nmap
+ 1787  qutecom
+ 1788  sudo apt install cutecom 
+ 1789  cutecom
+ 1790  rostopic echo /ar_pose_marker 
+ 1791  rostopic echo /
+ 1792  rostopic echo /visualization_marker
+ 1793  rostopic echo /ts
+ 1794  rostopic echo /tf
+ 1795  rqt_graph 
+ 1796  rostopic echo /ar_pose_marker 
+ 1797  rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map myusb_cam 0
+ 1798  tf
+ 1799  rqt_graph 
+ 1800  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map my_frame 100
+ 1801  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 ma  100
+ 1802  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map usb_cam  100
+ 1803  roslaunch mavros_tracker_plugins tracker_receiver.launch 
+ 1804  rosparam set gps_ref_altitude 0
+ 1805  roslaunch mavros_tracker_plugins tracker_receiver.launch 
+ 1806  rosparam set gps_ref_altitude 0
+ 1807  rosparam set gps_ref_longtitude 0
+ 1808  rosparam set gps_ref_latitude 0
+ 1809  roslaunch mavros_tracker_plugins tracker_receiver.launch 
+ 1810  rosparam set gps_ref_longitude 0
+ 1811  roslaunch mavros_tracker_plugins tracker_receiver.launch 
+ 1812  rostopic echo /tracker_gps 
+ 1813  rostopic echo /
+ 1814  rostopic echo /gps_position 
+ 1815  rostopic echo /gps_pose
+ 1816  rostopic echo /dji_sdk/gps_position 
+ 1817  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1818  rostopic echo /tracker_odometry 
+ 1819  roslaunch landing twiddle.launch 
+ 1820  '/home/r0ach/install_geographiclib_datasets.sh' 
+ 1821  sodu '/home/r0ach/install_geographiclib_datasets.sh' 
+ 1822  sudo '/home/r0ach/install_geographiclib_datasets.sh' 
+ 1823  locate install_geographiclib_datasets.sh 
+ 1824  sudo '/home/r0ach/catkin_ws/src/mavros_tracker_plugins/install_geographiclib_datasets.sh' 
+ 1825  locate geoids
+ 1826  locate egm96-5.pgm
+ 1827  cp /usr/share/GeographicLib/ /usr/local/share/
+ 1828  cp /usr/share/GeographicLib/ /usr/local/share/ -r
+ 1829  sudo cp /usr/share/GeographicLib/ /usr/local/share/ -r
+ 1830  rostopic echo /dji_sdk/image_raw 
+ 1831  cd catkin_ws/
+ 1832  catkin_make landing_node 
+ 1833  catkin_make
+ 1834  catkin_make landing_node 
+ 1835  cutecom
+ 1836  rosrun landing landing_node 
+ 1837  roslaunch landing landing_drone.launch 
+ 1838  rviz
+ 1839  sudo apt update
+ 1840  sudo apt upgrade
+ 1841  rosrun ar_tag_toolbox ar_tag_tracker.py
+ 1842  roslaunch ar_tag_toolbox ar_follower.launch 
+ 1843  cd catkin_ws/
+ 1844  catkin_make
+ 1845  cd catkin_ws/
+ 1846  roslaunch ar_tag_toolbox ar_follower.launch 
+ 1847  rosrun rviz rviz 
+ 1848  rviz
+ 1849  roscore
+ 1850  roslaunch dji_sdk sdk.launch 
+ 1851  gimp
+ 1852  touch video.txt
+ 1853  cutecom 
+ 1854  hal
+ 1855  ping hal
+ 1856  ssh mavrin
+ 1857  celar
+ 1858  clear
+ 1859  sudo apt update
+ 1860  sudo apt upgrade
+ 1861  sudo apt update
+ 1862  sudo apt upgrade
+ 1863  sudo apt upgrade -f
+ 1864  sudo apt install -f
+ 1865  sudo dpkg --configure -a
+ 1866  reboot
+ 1867  reboot -i
+ 1868  systemctl reboot 
+ 1869  systemctl reboot -i
+ 1870  clear
+ 1871  sudo apt
+ 1872  sudo apt upgrade
+ 1873  sudo apt update
+ 1874  reboot
+ 1875  systemctl reboot -i
+ 1876  rosrun ar_track_alvar createMarker 0
+ 1877  rosrun ar_track_alvar createMarker 
+ 1878  rosrun ar_track_alvar createMarker -a
+ 1879  rosrun ar_track_alvar createMarker
+ 1880  rosrun ar_track_alvar createMarker 0
+ 1881  rosrun ar_track_alvar createMarker -ucm
+ 1882  rosrun ar_track_alvar createMarker -ucm 0
+ 1883  rosrun ar_track_alvar createMarker -ucm 0 -s 16
+ 1884  rosrun ar_track_alvar createMarker -ucm 0 -s 8
+ 1885  rosrun ar_track_alvar createMarker 0 -s 8
+ 1886  cd catkin_ws/
+ 1887  catkin_make
+ 1888  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+ 1889  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=4
+ 1890  clear
+ 1891  sudo apt update
+ 1892  sudo apt upgrade
+ 1893  sudo dpkg --configure -a
+ 1894  sudo apt upgrade
+ 1895  sudo apt update
+ 1896  sudo apt upgrade
+ 1897  clear
+ 1898  roscore
+ 1899  rqt
+ 1900  rqt_bag 
+ 1901  rqt_shell 
+ 1902  clear
+ 1903  netcat 
+ 1904  netcat -l
+ 1905  netcat -l 22
+ 1906  sudo netcat -l 22
+ 1907  nc
+ 1908  clear
+ 1909  nice 
+ 1910  nice 1
+ 1911  nice -h
+ 1912  nice --help
+ 1913  celar
+ 1914  clear
+ 1915  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+ 1916  clear
+ 1917  sudo s
+ 1918  sudo su
+ 1919  cealr
+ 1920  clear
+ 1921  ssh ubuntu:192.168.1.55
+ 1922  gnome-terminal &
+ 1923  mkdir drone_src
+ 1924  ssh ubuntu@192.168.1.5
+ 1925  ssh ubuntu@192.168.1.55
+ 1926  ping 192.168.1.55
+ 1927  ifconfig
+ 1928  sudo apt install net-tools
+ 1929  ifconfig
+ 1930  ssh 192.168.1.55
+ 1931  ssh ubuntu@192.168.1.55
+ 1932  ssh ubuntu@192.168.1.55 -X
+ 1933  ssh ubuntu@192.168.1.55 -h
+ 1934  ssh ubuntu@192.168.1.55 --help
+ 1935  sudo apt install clusterssh 
+ 1936  clusterssh 
+ 1937  ssh ubuntu@192.168.1.55
+ 1938  roscore
+ 1939  scp
+ 1940  scp ubuntu@192.168.1.55/home/ubuntu/skywand_ros/src /drone_src
+ 1941  scp ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /drone_src
+ 1942  scp ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /drone_src -rp
+ 1943  scp ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /drone_src
+ 1944  scp -r ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /drone_src -rp
+ 1945  scp -r ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /drone_src 
+ 1946  scp -r ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src /home/r0ach/drone_src 
+ 1947  diff drone_src/src/drone_landing/dji_sdk_read_cam/src/nv_cam.cpp  catkin_ws/src/dji_sdk_read_cam/src/nv_cam.cpp 
+ 1948  scp -r drone_src/src/drone_landing/ ubuntu@192.168.1.55:/home/ubuntu/skywand_src/src 
+ 1949  scp -r drone_src/src/drone_landing/ ubuntu@192.168.1.55:/home/ubuntu/skywand_src/src/ 
+ 1950  scp -r d ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/ 
+ 1951  scp -r dcatkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_src/src/ 
+ 1952  scp -r dcatkin_ws/src/dji_sdk_read_cam/ ubuntu@192.168.1.55:/home/ubuntu/skywand_src/src/ 
+ 1953  scp -r catkin_ws/src/dji_sdk_read_cam/ ubuntu@192.168.1.55:/home/ubuntu/skywand_src/src/ 
+ 1954  scp -r catkin_ws/src/dji_sdk_read_cam/ ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing/ 
+ 1955  scp -r catkin_ws/src/dji_sdk_read_cam/ ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing 
+ 1956  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing/ 
+ 1957  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing 
+ 1958  sudo scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing 
+ 1959  sudo scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/Drone_src
+ 1960  sudo scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing/ 
+ 1961  sudo scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1962  scp -r catkin_ws/src/dji_sdk_read_cam root@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1963  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1964  scp -r catkin_ws/src/dji_sdk_read_cam root@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1965  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/Drone_src
+ 1966  scp -r catkin_ws/src/dji_sdk_read_cam root@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1967  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1968  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/skywand_ros/src/drone_landing
+ 1969  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:home/ubuntu/skywand_ros/src/drone_landing
+ 1970  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:/home/ubuntu/skywand_ros/src/drone_landing
+ 1971  scp -r catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:~/skywand_ros/src/drone_landing
+ 1972  scp -r ~/catkin_ws/src/dji_sdk_read_cam ubuntu@192.168.1.55:~/skywand_ros/src/drone_landing
+ 1973  rostopic list
+ 1974  rviz
+ 1975  cd catkin_ws/
+ 1976  catkin_make
+ 1977  rostopic list 
+ 1978  rqt_image_view 
+ 1979  cat /dev/ttyUSB0
+ 1980  roslaunch dji_sdk sdk.launch 
+ 1981  ssh ubuntu@192.168.1.55
+ 1982  ssh ubuntu@192.168.1.23
+ 1983  ping 192.168.1.23
+ 1984  ssh ubuntu@192.168.1.23
+ 1985  sudo apt update
+ 1986  sudo apt upgrade
+ 1987  ssh ubuntu@192.168.1.23
+ 1988  sudo apt upgrade
+ 1989  ssh ubuntu@192.168.1.23
+ 1990  ssh ubuntu@192.168.1.55
+ 1991  nmap 192.168.1.0-255
+ 1992  nmap 192.168.1.0-255 -P
+ 1993  nmap 192.168.1.0-255 -F
+ 1994  ssh ubuntu@192.168.1.88
+ 1995  clusterssh
+ 1996  ssh ubuntu@192.168.1.88
+ 1997  nmap 192.168.1.*
+ 1998  cutecom 
+ 1999  ifconfig
+ 2000  ls
+ 2001  clear
+ 2002  mkdir ~/week1
+ 2003  cd ./week1/
+ 2004  ls /usr/bin grep gcc
+ 2005  ls /usr/bin grep 'gcc'
+ 2006  ls /usr/bin | grep
+ 2007  ls /usr/bin | grep gcc
+ 2008  ls /usr/bin | grep gcc | sort -r
+ 2009  ls /usr/bin | grep gcc | sort -r | ex1.txt
+ 2010  ls /usr/bin | grep gcc | sort -r | cat ex1.txt
+ 2011  ls /usr/bin | grep gcc | sort -r > ex1.txt
+ 2012  ls
+ 2013  sudo apt update
+ 2014  clear
+ 2015  history > ex2.txt
+ 2016  gedit ex3.sh
+ 2017  sh ex3.sh 
+ 2018  gedit main.c
+ 2019  gcc main.c -o ex4
+ 2020  ./ex4
+ 2021  clear
+ 2022  history > ex2.txt
