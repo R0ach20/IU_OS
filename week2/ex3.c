@@ -46,19 +46,6 @@ int main(int argc, char const *argv[]){
 	sscanf(argv[1], "%d", &n);
 	int width = 2*n - 1;
 
-	if(argv == 2){
-		right_side_up_trinagle(n);
-	}else{
-		int figure;
-		sscanf(argc[2], "%d", &figure);
-		swithc(figure){
-			0:
-				right_side_up_trinagle(n);
-				break;
-			1:
-				square(n);
-				break;
-		}
-	}
+	right_side_up_trinagle(n);
 	return 0;
 }
