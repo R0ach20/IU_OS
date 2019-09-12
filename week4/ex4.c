@@ -64,8 +64,8 @@ int main(int argc, char const *argv[]){
 	printf("Only commands up to 256 symbols long\n");
 	while(1){
 		fgets(str, MAX, stdin);
-		execute(str);
-			
+		//execute(str);
+		system(str);	
 	}
 	return 0;
 }
