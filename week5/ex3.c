@@ -58,7 +58,7 @@ int main(int argc, char const *argv[]){
 	pthread_create(&producer, NULL, produce, NULL);
 	pthread_create(&consumer, NULL, consume, NULL);
 	
-	while(producerState != 0 || consumerState !=0){
+	while(1){
 		fprintf(file, ":producerState=%d consumerState=%d\n", producerState, consumerState);
 		sleep(0.1);
 	}
