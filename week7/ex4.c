@@ -12,7 +12,7 @@ void *my_realloc(void* ptr, size_t size){
 		}else{
 			size_t old_size = malloc_usable_size(ptr);
 			new_ptr = malloc(size);
-			for(int i=0; i<size && i < old_size; i++){
+			for(int i=0; i<size && i < old_size; i++){//copy content
 				new_ptr[i] = ((char*)ptr)[i];
 			}
 			free(ptr);
@@ -21,7 +21,8 @@ void *my_realloc(void* ptr, size_t size){
 	return (void*)new_ptr;
 }
 
-int main(){
+
+int main(){//copied from ex3.c
 	//Allows you to generate random number
 	srand(time(NULL));
 
