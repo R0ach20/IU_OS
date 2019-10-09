@@ -1,0 +1,8 @@
+1)page size is 8KB => it contains 2^3*2^10 = 2^13 addreses of 1 B cells
+2)addres space is 16 bit
+3)page addres space is 13bit
+
+(2 & 3) => 2^3 pages = 8 pages 
+
+1 entry for page = 8 entries
+ANSWER: 8 entries

@@ -1,0 +1,3 @@
+Physical addres is the addres of the some part of the real RAM.
+Virtual addres is the addres of the some part of the virtual, high volume memory,
+only part of which is in the RAM, while remainning part is stored on disk.
