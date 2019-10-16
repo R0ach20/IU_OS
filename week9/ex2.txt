@@ -1,0 +1,3 @@
+Hit/Miss ratio increases as the distance (in time) decreases, because the possibility of 
+removing page from primary memory increases as page remains unreferenced.
+Opposite effect can be obtained by making higher gaps between page references.
