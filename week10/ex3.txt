@@ -1,0 +1,11 @@
+
+-rw-r--r-- 1 r0ach r0ach  0 окт 23 22:44 _ex3.txt
+-rw-rw-rw- 1 r0ach r0ach  0 окт 23 22:44 _ex3.txt
+-rwx---rwx 1 r0ach r0ach  0 окт 23 22:44 _ex3.txt
+-rwxrwxrwx 1 r0ach r0ach  0 окт 23 22:44 _ex3.txt
+
+
+
+660 - read and write for group and user
+775 - execute for all, but read and write only for group and user
+777 - read, write and execute for all
