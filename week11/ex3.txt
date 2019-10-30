@@ -1,0 +1,3 @@
+\n forces printf to push it's buffer into terminal
+thus in first case fork creates copy of program with "Hello in buffer"
+and in the second case buffer is empteid before fork by the '\n'
