@@ -1,0 +1,66 @@
+/////////////////////////////////////////////////////////////
+'/home/r0ach/marker_0_4_8_16.pdf' is a 6.4 KB pdf file
+/
+diffrent buffer sizes
+////////////////////////////////////////////////////////////
+gcc copy.c -DBUF_SIZE=1
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m0,020s
+user	0m0,008s
+sys		0m0,012s
+
+gcc copy.c -DBUF_SIZE=10
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m0,007s
+user	0m0,001s
+sys		0m0,007s
+
+gcc copy.c -DBUF_SIZE=1024
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m0,002s
+user	0m0,000s
+sys		0m0,002s
+
+////////////////////////////////////////////////////////////
+Since I/O operation ar emusch slower than primary memory, buffer in memory greatly reduces execution time
+////////////////////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////////////////////////////
+SYNC
+////////////////////////////////////////////////////////////
+
+gcc copy.c -DSYNC=1 -DBUF_SIZE=256
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m1,355s
+user	0m0,000s
+sys		0m0,006s
+
+gcc copy.c -DSYNC=1 -DBUF_SIZE=128
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m2,729s
+user	0m0,000s
+sys		0m0,009s
+
+gcc copy.c -DSYNC=1 -DBUF_SIZE=64
+time ./a.out '/home/r0ach/marker_0_4_8_16.pdf' ex3.pdf
+
+real	0m5,145s
+user	0m0,000s
+sys		0m0,017s
+
+////////////////////////////////////////////////////////////
+If open is in SYNC mode it waits till the complition of the I/O operations
+before the continuation of the execution of the program,
+which sums up with the speed decrease of small buffer.
+That makes program waiting for I/O each time the buffer is full,
+which makes it's speed reverse propotional to the size of the buffer
+////////////////////////////////////////////////////////////
+
