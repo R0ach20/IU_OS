@@ -1,0 +1,6 @@
+Supposing that system has small limit of any resource it can provide
+and a lot of processes require that resourece
+
+In that case Avoidance will be better, because
+
+in such condition probability of deadlock is pretty high and ignoring it will lead to frequent reboots. Also due to frequent deadlocks recovery will be performed a lot, which is bad, because recovery is a high-cost operation. Thus avoidance will keep system safe with smaller overhead than recovery, while preventing deadlocks from happening, thus saving system from need to be rebooted frequently.
